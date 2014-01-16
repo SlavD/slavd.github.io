@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Yaer - First Post"
+title: "New Year - First Post"
 description: "First post in the New Year 2014."
 category: articles
 tags: [first post, images, test]
