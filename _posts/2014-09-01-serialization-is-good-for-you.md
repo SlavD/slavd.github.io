@@ -43,8 +43,29 @@ return “<person><firstName>” + person.firstName + “</firstName><lastName>�
 
 This is a slippery slope and a very bad idea.  
 Before you know it your object grows, it includes arrays of other objects and your code becomes unmaintainable soup that’s a breeding ground for bugs.
+<br>
+And starts looking more like that:
+{% highlight java %}
+StringBuilder xmlString = new StringBuilder();
+xmlString.append("<person>");
+xmlString.append("<firstName>");
+xmlString.append(person.firstName);
+xmlString.append("</firstName>");
+if(person.bankAccount!=null){
+	xmlString.append("<bankAccount>");	
+	xmlString.append("<accountNumber>");
+	xmlString.append(person.bankAccount.accountNumber);
+	xmlString.append("</accountNumber>");
+	xmlString.append("</bankAccount>");	
+}
+xmlString.append("</person>");
+
+return xmlString.toString();
+{% endhighlight %}
+<br>
+You get the point - this is as bad as it looks - and it'll only get worse over time, so do everyone a favour and stop it!
 <br><br>
-This code (using Jackson XML) will stay largely the same regardless how complicated your object gets over time.
+Blow code (using Jackson XML) will stay largely the same regardless how complicated your object gets over time.
 
 {% highlight java %}
 XmlMapper xmlMapper = new XmlMapper();
