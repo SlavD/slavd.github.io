@@ -29,7 +29,7 @@ Queries for arbitrary columns behave in similar manner, although they deteriorat
 
 These are the results on the graph:
 <figure>
-	<img src="https://docs.google.com/spreadsheet/oimg?key=0AlccCc4c7XAPdFNPWnZBSHZydWZQbG56UnFkV1g3Z1E&amp;oid=2&amp;zx=ga9civ9t60ge" width="400">
+	<img src="https://docs.google.com/spreadsheet/oimg?key=0AlccCc4c7XAPdFNPWnZBSHZydWZQbG56UnFkV1g3Z1E&amp;oid=2&amp;zx=ga9civ9t60ge" width="700">
 </figure>
 
 And here is raw data:
