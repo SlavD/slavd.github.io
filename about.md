@@ -11,7 +11,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-My name is Slawomir Dorzak. I currently live in Dublin, Ireland and I work as Software Architect for Cloud Manager Team at [Dell](http://dell.com)[^1]. Over the years I have worked for number of companies, tried to develop my own product, worked with number of programming languages and frameworks. I'll use this blog to write about interesting things that I currently work with.
+My name is Slawomir Dorzak. I currently live in Dublin, Ireland where I work as a Software Engineer. Over the years I have worked for number of companies, tried to develop my own product, worked with number of programming languages and frameworks. I'll use this blog to write about things I find interesting.
 
 ## Some things I'm currently interested in
 
